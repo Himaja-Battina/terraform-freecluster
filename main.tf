@@ -1,5 +1,5 @@
 resource "ibm_container_cluster" "testacc_cluster" {
-  name            = var.name
+  name            = var.cluster_name
   datacenter      = "dal10"
   machine_type    = "free"
   hardware        = "shared"

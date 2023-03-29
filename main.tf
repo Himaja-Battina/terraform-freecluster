@@ -4,4 +4,5 @@ resource "ibm_container_cluster" "testacc_cluster" {
   machine_type    = "free"
   hardware        = "shared"
   region=var.region
+  kube_version      = "1.25.8_1534"
 }
